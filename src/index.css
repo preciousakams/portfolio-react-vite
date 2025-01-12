@@ -16,7 +16,8 @@ code {
   overflow: auto;
 }
 
-.home {
+.home,
+.detail-Err {
   background: url('./img/Group1.svg') no-repeat;
   background-size: contain;
   height: 60vh;
@@ -250,8 +251,11 @@ section {
 
   .detail-list li {
     float: left;
-    padding: 0 2rem;
-
+    padding: 0 1rem;
+    margin: 0 1rem;
+    border: solid 2px #41173F;
+    border-radius: 22px;
+    background-color: #41173F;
   }
   .detail-list li a {
       text-decoration: none;
@@ -259,10 +263,6 @@ section {
       font-size: 22px;
       font-weight: 600;
       font-style: italic;
-      border: solid 2px #41173F;
-      background-color: #41173F;
-      padding: 6px;
-      border-radius: 22px;
   }
 
   .portfolioCard {
@@ -534,3 +534,24 @@ section {
     display: none !important;
   }
 
+  .detail-Err {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .detail-Err a {
+    color: white;
+    text-decoration: none;
+    background-color: #41173F;
+    border: solid #41173F;
+    border-radius: 16px;
+    padding: 0.5rem;
+
+  }
+
+  .detail-Err p {
+    color: #174119;
+  }

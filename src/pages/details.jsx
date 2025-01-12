@@ -9,7 +9,10 @@ const { product } = location.state || {};
 console.log(product);
 
 if (!product) {
-  return <p>An Error has occured, please go back to the main page</p>
+  return <div className="detail-Err">
+    <p>An Error has occured</p>
+    <div><a href="/">Return to the Main page</a></div>
+    </div>
 }
   return (
     <div>
@@ -42,7 +45,7 @@ if (!product) {
 </div>
       <h5 className="detail-desc">{product.description}</h5>
       <ul className="detail-list">
-        <li><a href={product.sourceCode}>Source Code</a></li>
+        <li className="source-code"><a href={product.sourceCode}>Source Code</a></li>
         <li><a href={product.productLink}>Demo</a></li>
       </ul>
    </div>
