@@ -13,9 +13,9 @@ const PortfolioArray = [
   // },
    {
     projectName: 'Wonder Hotels',
-    img1: "https://res.cloudinary.com/wonderwoman/image/upload/v1736624282/myportfolio/wonderHotels/React_App_-_Google_Chrome_1_11_2025_7_32_10_PM_qll9f2.png",
-    img2: "https://res.cloudinary.com/wonderwoman/image/upload/v1736624278/myportfolio/wonderHotels/React_App_-_Google_Chrome_1_11_2025_7_33_17_PM_pbrf5r.png",
-    img3: "https://res.cloudinary.com/wonderwoman/image/upload/v1736624278/myportfolio/wonderHotels/React_App_-_Google_Chrome_1_11_2025_7_33_29_PM_w6dcyz.png",
+    img1: "https://res.cloudinary.com/wonderwoman/image/upload/v1740330790/myportfolio/wonderHotels/React_App_-_Google_Chrome_1_11_2025_7_32_10_PM_tqlnyt.webp",
+    img2: "https://res.cloudinary.com/wonderwoman/image/upload/v1740330790/myportfolio/wonderHotels/React_App_-_Google_Chrome_1_11_2025_7_33_17_PM_n6wkkb.webp",
+    img3: "https://res.cloudinary.com/wonderwoman/image/upload/v1740330790/myportfolio/wonderHotels/React_App_-_Google_Chrome_1_11_2025_7_33_29_PM_ydeyta.webp",
     stack: "JavaScript, React and NodeJs",
     description: "A hotel management system that handles room reservation, filtering of rooms by different categories, canceling a reservation etc.",
     sourceCode: "https://github.com/preciousakams/hotelmgt-frontend",
